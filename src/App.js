@@ -1,17 +1,12 @@
-import Footer from './components/Footer.js';
-import Greeting from './components/Greeting.js';
+import Body from './components/Body.js';
 import './App.css';
-import './Custom.css';
+import './Body.css';
 
 function App() {
   return (
     <div>
-      <h1>Hello, React!</h1>
-      <p>This is a simple JSX example.</p>
-      <Greeting greeting = "Konnichiwa" name = "Aaron"/>
-      <Greeting name = "Aaron"/>
+      <Body/>
     </div>
   );
 }
-
 export default App;
