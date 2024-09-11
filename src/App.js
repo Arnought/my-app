@@ -1,4 +1,4 @@
-import Body from './components/Body.js';
+import Body from './UserProfile/Body.js';
 import './App.css';
 import './Body.css';
 
